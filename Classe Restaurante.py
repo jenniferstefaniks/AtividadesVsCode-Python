@@ -16,9 +16,7 @@ class Bk(Restaurante):
         super().__init__(self.cardapio, self.dia_semana)
         self.nome = nome
         self.pagamento = pagamento
-        
 
-    
 
 class Habibs(Restaurante):
     def __init__(self, nome, pagamento, cardapio, dia_semana):
